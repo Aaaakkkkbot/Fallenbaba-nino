@@ -58,7 +58,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ ᴄʜɪᴢᴜʀᴜ ᴍᴜsɪᴄ  ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
+            f"✯ Nino ᴍᴜsɪᴄ  ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -68,7 +68,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ ᴄʜɪᴢᴜʀᴜ ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : `{ASS_ID}`\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
+            f"✯ nino ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : `{ASS_ID}`\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -77,8 +77,8 @@ async def fallen_startup():
 
     await app2.send_message(BOT_USERNAME, "/start")
 
-    LOGGER.info(f"[•] Bot Started As {BOT_NAME}.")
-    LOGGER.info(f"[•] Assistant Started As {ASS_NAME}.")
+    LOGGER.info(f"[•] Nino Started  {BOT_NAME}.")
+    LOGGER.info(f"[•] Nino Assistant Started {ASS_NAME}.")
 
     LOGGER.info(
         "[•] \x53\x74\x61\x72\x74\x69\x6e\x67\x20\x50\x79\x54\x67\x43\x61\x6c\x6c\x73\x20\x43\x6c\x69\x65\x6e\x74\x2e\x2e\x2e"
